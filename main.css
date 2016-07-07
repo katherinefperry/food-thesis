@@ -85,6 +85,7 @@ hr {
 
 p a {
 	color: #9C2542;
+	font-style: bold;
 }
 
 p a:hover {
