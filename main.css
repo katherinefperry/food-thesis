@@ -1,0 +1,162 @@
+/**generic html**/
+
+header {
+	text-align: center;
+	padding-top: 15px;
+	background-color: #66023C;
+	color: white;
+	margin: 40px auto;
+	background: url(https://c2.staticflickr.com/8/7699/27838649360_4f9f8835e2_o.jpg) center center;
+	background-size: cover;
+	background-color: #fff;
+	overflow: hidden;
+}
+
+.content {
+	margin: 0 auto;
+	max-width: 900px;
+}
+
+/**header**/
+
+header h1 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	font-size: 80px;
+}
+
+header h2 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	margin: -10px;
+	font-weight: 300;
+	letter-spacing: 0px;
+}
+
+header h3 {
+	font-size: 18px;
+	font-style: italic;
+	font-family: serif;
+	margin-top: 60px;
+	padding: 0px 0px 35px 0px;
+	width: auto;
+	text-align: center;
+}
+
+/**main**/
+
+section {
+	margin: 0 50px;
+}
+
+
+section h4 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	font-size: 36px;
+	text-align: left;
+	margin: 60px 0px 30px 0;
+	display: block;
+}
+
+section p {
+	margin: 0px auto;
+	font-size: 16px;
+	line-height: 28px;
+}
+
+ul {
+	list-style: none;
+	margin: 0px 0px 60px 60px;
+	font-size: 16px;
+	line-height: 28px;
+}
+
+/**divider**/
+
+hr {
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+	margin: 700px 0 0 0;
+}
+
+/**links**/
+
+p a {
+	color: #9C2542;
+}
+
+p a:hover {
+	color:black;
+	text-decoration: none;
+}
+
+/**hover bar experiment**/
+
+#uberbar    { 
+    background:#9C2542;
+    padding: 10px 0px 2px 0px;
+    position:fixed; 
+    top:0; 
+    left:0; 
+    z-index:2000; 
+    width:100%;
+		color: white;
+		text-align: center;
+		font-family: Raleway, sans-serif;
+		letter-spacing: 3px;
+}
+
+
+/**bottom button**/
+
+.btn {
+	font-family: Raleway;
+	font-weight: bold;
+	font-size: 18px;
+	background: #9C2542;
+	color:white;
+	border: 0 none;
+	padding: 10px 30px 10px 30px;
+	text-transform: uppercase;
+	position: fixed;
+	margin: auto;
+	left: 0;
+	right: 0;
+	bottom: 25px;
+	box-shadow: 2px 2px 4px #ccc;
+	width: 325px;
+	webkit-transition: all 0.2s ease-in-out;
+	moz-transition: all 0.2s ease-in-out;
+	o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.button a:hover {
+	color: white;
+	background: #66023C;
+	outline: 2px black;
+}
+
+/**images**/
+
+img {
+	width: 395px;
+	float:left;
+	display: inline-block;
+	margin: 5px 5px 5px 0px;
+}
+
+/**about**/
+
+.about {
+	margin-bottom: 100px;
+}
+
+.about h4 {
+	margin-top: 55px;
+}
+
+
+
