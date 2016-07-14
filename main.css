@@ -2,7 +2,7 @@
 
 header {
 	text-align: center;
-	padding-top: 15px;
+	padding-top: 30px;
 	background-color: #66023C;
 	color: white;
 	margin: 40px auto;
@@ -10,11 +10,13 @@ header {
 	background-size: cover;
 	background-color: #fff;
 	overflow: hidden;
+	height: auto;
 }
 
 .content {
 	margin: 0 auto;
-	max-width: 900px;
+	width: 85%;
+	max-width: 950px;
 }
 
 /**header**/
@@ -23,24 +25,28 @@ header h1 {
 	font-family: 'Oswald', sans-serif;
 	font-weight: bold;
 	font-size: 5em;
+	width: 90%;
+	margin: 0 auto;
 }
 
 header h2 {
 	font-family: 'Raleway', sans-serif;
 	font-size: 1.875em;
-	margin: -10px;
 	font-weight: 300;
 	letter-spacing: 0px;
+	width: 90%;
+	margin: 0 auto;
 }
 
 header h3 {
 	font-size: 1.125em;
 	font-style: italic;
 	font-family: serif;
-	margin-top: 60px;
-	padding: 0px 0px 35px 0px;
-	width: auto;
+	padding: 0px 0px 25px 0px;
+	width: 90%;
 	text-align: center;
+	margin: 0 auto;
+	margin-top: 40px;
 }
 
 /**main**/
@@ -72,14 +78,6 @@ ul {
 	line-height: 28px;
 }
 
-/**divider**/
-
-hr {
-	height: 10px;
-	border: 0;
-	box-shadow: 0 10px 10px -10px #8c8b8b inset;
-	margin: 700px 0 0 0;
-}
 
 /**links**/
 
@@ -93,21 +91,40 @@ p a:hover {
 	text-decoration: none;
 }
 
-/**hover bar experiment**/
+/**hover bar**/
 
 #uberbar    { 
     background:#9C2542;
-    padding: 10px 0px 2px 0px;
+    padding: 10px 5px 0px 5px;
     position:fixed; 
     top:0; 
     left:0; 
     z-index:2000; 
     width:100%;
-		color: white;
-		text-align: center;
-		font-family: Raleway, sans-serif;
-		letter-spacing: 3px;
+	color: white;
+	text-align: center;
+	font-family: Raleway, sans-serif;
 }
+
+/**images**/
+
+img {
+	width: 48.5%;
+	float:left;
+	display: inline-block;
+	margin: 5px 5px 5px 0px;
+}
+
+/**about**/
+
+.about {
+	margin-bottom: 100px;
+}
+
+.about h4 {
+	margin-top: 55px;
+}
+
 
 
 /**bottom button**/
@@ -138,25 +155,6 @@ p a:hover {
 	color: white;
 	background: #66023C;
 	outline: 2px black;
-}
-
-/**images**/
-
-img {
-	width: 395px;
-	float:left;
-	display: inline-block;
-	margin: 5px 5px 5px 0px;
-}
-
-/**about**/
-
-.about {
-	margin-bottom: 100px;
-}
-
-.about h4 {
-	margin-top: 55px;
 }
 
 
